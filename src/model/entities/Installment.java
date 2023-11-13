@@ -8,6 +8,7 @@ public class Installment {
 	private LocalDate dueDate;
 	private Double amount;
 	
+	//objeto estático só para formatar a data na última linha 
 	private static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 	
 
